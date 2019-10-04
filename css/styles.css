@@ -6,3 +6,25 @@ body {
 figcaption {
     font-family: 'Oswald', serif;
     text-decoration-color:rgb(212, 104, 104);
+}
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.h-buttons button {
+    border-radius: 40px;
+    color: black;
+}
+#menu {
+    padding-top: 20px;
+}
+
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
