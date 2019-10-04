@@ -65,3 +65,18 @@ cdata {
     font-size: 14px;
 
 }
+.deliver, .delivernot {
+    margin: 10px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
