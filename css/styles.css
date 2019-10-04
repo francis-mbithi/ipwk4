@@ -3,3 +3,6 @@ body {
     padding: 0;
     color: #cf5858;
 }
+figcaption {
+    font-family: 'Oswald', serif;
+    text-decoration-color:rgb(212, 104, 104);
