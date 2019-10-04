@@ -28,3 +28,39 @@ figcaption {
     font-size: 24px;
     font-family: system-ui, serif;
 }
+.click-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.get-pizza {
+    margin-top: 40px;
+}
+cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.data {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.go {
+    border-radius: 20px;
+}
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
