@@ -1,13 +1,14 @@
-## Author 
-*Francis Mbithi*
-# Project Name 
-PizzaBite!
+## PizzaBite
+
+# Description
+A pizza ordering and delivery web application where customers order different sizes of pizzas with one or more toppings.It uses constructors, prototypes, objects, properties, and methods in Javascript as well jQuery and DOM manipulation & traversal.
+
+# Author
+Francis Mbithi
  
 # Technologies
 HTML ,CSS ,Jquery,Javascript,Bootstrap ,arrays, objects.
 
-# About
-A pizza ordering and delivery web application where customers order different sizes of pizzas with one or more toppings.It uses constructors, prototypes, objects, properties, and methods in Javascript as well jQuery and DOM manipulation & traversal.
 
 # Setup
 Clone from :https://github.com/francis-mbithi/ipwk4.git
