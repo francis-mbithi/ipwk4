@@ -74,7 +74,7 @@ figcaption {
 }
 
 .contacts {
-    background-image: url("../images/sec/b1.jpg");
+    background-image: url("../img/image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -270,7 +270,10 @@ figure img {
     background-color: green !important;
 }
 .row{
-    background-image: url("../images/pizzabg.jpeg");
+    /*background-image: url("../img/image.jpeg");**/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .navbar:not(.top-nav-collapse) {
