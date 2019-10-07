@@ -404,11 +404,13 @@ $(function () {
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
     });
-
-
-    
+    $(document).ready(function() {
+        $(".deliver").deliver(function() {
+            alert("Form submitted Successfully");
+        });
+    });
     $(".delivernot").click(function () {
-
+       
     });
 
     
