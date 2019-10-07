@@ -1,4 +1,5 @@
-# PizzaBite
+# Title
+## PizzaBite
 
 # Description
 A pizza ordering and delivery web application where customers order different sizes of pizzas with one or more toppings.It uses constructors, prototypes, objects, properties, and methods in Javascript as well jQuery and DOM manipulation & traversal.
