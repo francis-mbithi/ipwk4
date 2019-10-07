@@ -9,9 +9,16 @@
   <title>PizzaBite!</title>
 </head>
 <body> 
-        <nav class="nav">
-                <h1 id="piz-pap" class="">Pi<span id="spantext">zz</span>a Bite</h1>
-        </nav>    
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <h1 id="piz-pap" class="">Pi<span id="spantext">zz</span>a Bite!</h1>
+        <div class="navi">
+            <ul class="nav-items">
+                <li><a href="#menus">Menu</a></li>
+                <li><a href="#order">Orders</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="welcome" id="welcome">
         <br>
         <div class="col-sm-12">
@@ -131,10 +138,11 @@
                     <input type="text" class="form-control cdata" placeholder="Enter your Name:">
                     <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
                     <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                    <button class="btn bg-info text-center d-block mx-auto go" onclick="delivery ">Make Delivery</button>
+                    <button type="submit" class="btn bg-info text-center d-block mx-auto go" id="delivery" onclick="alert('your order will be delivered to your location')">Make Delivery</button>
                 <div class="col-sm-3"></div>
             </div>
         </div>
+     
         <div class="d-block mx-auto text-center">
             <button class='deliver'>Make Delivery</button>
             <button class='delivernot'>Pick Up</button>

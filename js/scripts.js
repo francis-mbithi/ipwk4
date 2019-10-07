@@ -422,6 +422,3 @@ $(function () {
 
 });
 
-function delivery(){
-    alert ('your order will be delivered to your location')
-}
