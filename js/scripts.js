@@ -378,8 +378,9 @@ $(function () {
 
     
         let newOrder = order(flavour, size, crust, topping, number, totalPrice);
-        console.log(newOrder); 
-
+        console.log(newOrder);
+        
+        
         $('.summary').slideDown(2000);
         $('.cdata-overlay').slideUp();
         $('#list').slideDown();
@@ -395,7 +396,7 @@ $(function () {
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
     });
 
-    
+
     $(".deliver").click(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
@@ -404,17 +405,23 @@ $(function () {
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
     });
-    $(document).ready(function() {
-        $(".deliver").deliver(function() {
-            alert("Form submitted Successfully");
-        });
-    });
+
+
+
+
     $(".delivernot").click(function () {
-       
+
     });
 
-    
+
     $(function () {
         $.scrollify.move('#sum-order');
     });
+
+
+
 });
+
+function delivery(){
+    alert ('your order will be delivered to your location')
+}
